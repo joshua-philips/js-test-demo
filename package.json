@@ -1,0 +1,19 @@
+{
+  "name": "js-test-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --coverage --watchAll --verbose",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "@types/jest": "^29.2.6"
+  }
+}
